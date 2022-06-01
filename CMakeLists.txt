@@ -6,15 +6,19 @@ find_package(catkin REQUIRED COMPONENTS message_generation geometry_msgs)
 add_message_files(
   DIRECTORY msg
   FILES
+  Property.msg
   Waypoint.msg
-  WaypointNavStatus.msg
   Waypoints.msg
+  WaypointNavStatus.msg
 )
 
 add_message_files(
   DIRECTORY msg/function
   FILES
+  attention_speak.msg
+  loop.msg
   goal.msg
+  next_waypoint.msg
   slop.msg
   step.msg
   stop.msg

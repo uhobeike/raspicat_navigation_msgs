@@ -1,11 +1,7 @@
-bool next_waypoint_mode
-bool final_goal_waypoint_mode
-bool restart_waypoint_mode
-bool goal_reached_mode
-bool slope_obstacle_avoidance_mode
+uint16 waypoint_current_id
 
-bool msg_receive_flag
-bool restart_flag
-bool final_goal_flag
-bool goal_reached_flag
-bool slope_obstacle_avoidance_flag
+Property functions
+
+float32 waypoint_current_distance
+geometry_msgs/Pose robot_pose
+float32 waypoint_radius_threshold
