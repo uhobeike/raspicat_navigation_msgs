@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation geometry_msgs)
 add_message_files(
   DIRECTORY msg
   FILES
+  Flag.msg
   Property.msg
   Waypoint.msg
   Waypoints.msg
